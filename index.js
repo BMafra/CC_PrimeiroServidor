@@ -42,7 +42,7 @@ const listaUsuarios = [
 ]
 
 app.get('/', (req, res) => {
-    res.send("Hello world")
+    res.send("Hello world!")
 })
 
 app.get('/api/pessoas', (req, res) => {
